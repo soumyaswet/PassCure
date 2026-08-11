@@ -1,0 +1,15 @@
+{
+  "name": "password-manager-contracts",
+  "version": "1.0.0",
+  "description": "Solidity smart contracts for blockchain password manager",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.0",
+    "@openzeppelin/contracts": "^4.9.0"
+  }
+}
